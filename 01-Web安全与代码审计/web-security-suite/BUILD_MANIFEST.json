@@ -1,0 +1,46 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\access-control-idor.md": "db5023f7ec4c80dd7841c301e3cb2a5e18f6b24b1bc5f4fdcfd3e4fef89fdf7c",
+    "references\\capabilities\\auth-session-bypass.md": "e98d192c5ee61cc010c03c403f37f21be15fbadeb77a935bd4472ab421edc163",
+    "references\\capabilities\\business-logic-flaws.md": "366d41f6d72024d72626081efb2a335e63b9744da8c04b6c9a20fe174c5a6185",
+    "references\\capabilities\\command-file-injection.md": "97a1914f6da29dbfca373c15c5d639c954e811ab9a5ef7ae301d082c3db3e9d0",
+    "references\\capabilities\\csrf-ui-redress.md": "2b4f792f1f16dcbbaa4eb566cad5df3efeaf57ef01489bd7fa88a646b1e4b37c",
+    "references\\capabilities\\deserialization-rce.md": "7f252cb4e9140b30c9525b3d94c5b10e8de755b6dd0a2a8bb51bbf895b33a6cb",
+    "references\\capabilities\\finding-to-report.md": "28db7f6813800c8ed870a08799c5790fb32dcfed620064c5e56a8c6fb5bb676d",
+    "references\\capabilities\\injection-channel-selection.md": "5080714e8221aca6c4681f572371198f02c245c33f0a891ddbda25c86a80e631",
+    "references\\capabilities\\ocr-counter-example.md": "9a15b567867d197db2b9e2721e4e924aaab2c6fd0ecd81fa18767305526c7c7a",
+    "references\\capabilities\\ocr-framework-judgement.md": "c078b968b383289c08cf1e3428c44125df4b812d20521985f586a226b3985ff1",
+    "references\\capabilities\\ocr-recipe-troubleshooting.md": "953094adfd405692d00649657df5e1c1bbcbcfeff5a8252ef2c66db995d6b1ac",
+    "references\\capabilities\\recon-asset-surface.md": "5b37277e5ed371a6e889f763705fcbeaa359a7218395e3ea7c1b8300eac7698b",
+    "references\\capabilities\\server-request-injection.md": "6bc1f0f383295d9cb213e7ce4a43592aa2f59d7cd76a4e2089045e65315d5325",
+    "references\\capabilities\\source-code-audit.md": "8c7b15c64762c7115618f8062ce68a53e0053bdc903536e0210d92df663893a8",
+    "references\\capabilities\\waf-bypass-encoding.md": "cf4814ab9c8032aacb36a7fb6ae793031602098ceb62c3c69e1c86090260b022",
+    "references\\capabilities\\xss-context-runtime.md": "71093a639b7dbb2119fc30caca55383551657172ed21bbab66a2979bde9cf4c9",
+    "references\\capability-index.md": "d4d5cb2514aad85e77ba1098b085ecbcb867bec1f0b642547bbc9e66bc5d7bd2",
+    "references\\cheatsheet.md": "9215e62e29be27e92630c66410801c5e4eaf4b041bed2938c1be7d1d1f178859",
+    "references\\glossary.md": "b539df182ba913e215824e88ea43e00e3b3c0580a02afa8548263f51de6f10a5",
+    "references\\overview.md": "bfdc0501dfb8c5c963fb5becc8b8feb560b0807ccedc58d2a216511678ccd6b6",
+    "SKILL.md": "ca43ca6ec67a7ca520be3848a04b5a624fe78e9e9628714870f13a124e925d0e"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.web-security-suite",
+  "bundle_sha256": "211dc1b37b462fe15e92aa5081ecb802118e29dafca801fbff2163b7f0933070",
+  "variant": "single",
+  "run_id": "run-20261121-105255-0b2ec2",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 5,
+    "promoted_count": 4,
+    "capability_count": 16,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 4 个晋级 Skill，共 5 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\binary-analysis-toolchain.md": "58afc3d4d08e30a83bca68b94f1e8f0fcc7a3b76ad1e713128cca71ddf206210",
+    "references\\capabilities\\crash-to-exploit.md": "d99113181ea216fc4c756e473a79f302cc9cd97a2cf42eb3784b121b41eaf57c",
+    "references\\capabilities\\fuzzing-campaign.md": "45842289101c8548eb2637eb0278e79d31da99dcadd24e2491a840a4e94ef1d5",
+    "references\\capabilities\\fuzzing-triage-infra.md": "6d2db82187481d92ebc26c0bd8febb6deaed655dd3a69e0ccadf968e6637a5b9",
+    "references\\capabilities\\injection-filter-audit.md": "fac4c7433ffca9131be493ddeaed16c0f74def2151575a1fb5d3914112f5f92e",
+    "references\\capabilities\\malware-behavior-analysis.md": "05771f8ce5119b00b9bc72d122a17a7d4ba9896841de92b2581b20e7511f11fb",
+    "references\\capabilities\\memory-integer-audit.md": "a938793d38f7b82263791f37b3bfb7a6dffdad1398d07994d4e752426bf1b1b0",
+    "references\\capabilities\\mitigation-bypass-and-rop.md": "cca3acd2415067feb0e55be605a2a2781d21503a218282ed08c412412214b61c",
+    "references\\capabilities\\privilege-windows-audit.md": "7c7aa120cca03bac4ab6a8cd978b536fda25e4bbbfd8ba856cf2351f140cf459",
+    "references\\capabilities\\protocol-and-race-audit.md": "30a3d082b273911038032242e21d447adddcf2e0f1b5e73c3819f35394643697",
+    "references\\capabilities\\security-review-planning.md": "521329dc54fa628758568a10927022d1c22daba1e63769bba3dd02a9204d7c3f",
+    "references\\capabilities\\shellcode-engineering.md": "33badf0c4ffcb0f263984cc25cd86b1264c4217d26d9d3bf9ddefdd564bd848c",
+    "references\\capabilities\\source-audit-dataflow.md": "feb760132270d4abdc431bc337435fc9ce46c97927066f14187bba19c5beba25",
+    "references\\capabilities\\unknown-binary-triage.md": "3513ae3592f624e1eeb6bb3c1f11c2a6579efb50319ce78498737ab997c02bd6",
+    "references\\capability-index.md": "ac47a4f9e27c0824b1f99a05a31e5485e12dedf5a9e7d593ca25226c765bb530",
+    "references\\cheatsheet.md": "3271ae8245fe699a2f7359e041028f11183c0e760afca4bb22dde1e18d1b5022",
+    "references\\glossary.md": "8d20c903d388eb693afabae1cfc8226595873409b2ccf324b4d4b334cc4bc8af",
+    "references\\overview.md": "ab7c992fa7923a3b08c9e4f8da5bb684635767d130d00b95234f8f54574b4295",
+    "SKILL.md": "51b40362a51da69b7e668b6d3dc7d2be1188022faf3d66e136eafe135745cde3"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.reverse-binary-suite",
+  "bundle_sha256": "72bb8352ce700f638d4cf3ebb5327e85d27f3f5de8551014d5142958707074a0",
+  "variant": "single",
+  "run_id": "run-20261121-105304-88558b",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 5,
+    "promoted_count": 4,
+    "capability_count": 14,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 4 个晋级 Skill，共 5 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

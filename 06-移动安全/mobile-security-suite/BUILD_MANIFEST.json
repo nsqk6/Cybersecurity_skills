@@ -1,0 +1,42 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\attack-surface-scoping.md": "32376234348f2e66e88d486dabccf135e5d929ed6248e87b7fdaf159460d6281",
+    "references\\capabilities\\auth-and-findings-triage.md": "c2459026a364384caa08678426963ec8d38b91c27948454c2bf3a9c855d0301b",
+    "references\\capabilities\\component-exposure-and-exploitation.md": "ea9e2da1a9bd529e406bd9cbd343d6ef01f645e1c7e566657565e1a2d753e18e",
+    "references\\capabilities\\ios-platform-security-testing.md": "f8d4ffa3e9b5e459ac921350f8b547718c1f3ef55e7231abb6b26a10f3bd4172",
+    "references\\capabilities\\ocr-framework-judgement.md": "e15029d4a4577cc588230e78c1ea3cc1d9b6531f2b05ac5ad3fc4c79c3354e97",
+    "references\\capabilities\\ocr-recipe-troubleshooting.md": "3468eaab906120fe575a2c9611139f4aac215400beef71f451ce07e7fe7aed62",
+    "references\\capabilities\\provider-data-extraction.md": "4132b1bee0c9ca497437dfa45fbd0dcb2fce408c025160060b98a128e6d2b1cc",
+    "references\\capabilities\\sandbox-data-acquisition.md": "0df6450b8c048456a2ef03473b6fa1b32b802c96ebcc8cff82abbbe4cd886362",
+    "references\\capabilities\\static-reverse-and-tampering.md": "079279b45f720dcd4bc61a976834754a22eb4574f1306a940bf18e2cb4845b24",
+    "references\\capabilities\\transport-security-testing.md": "75e27586f7d87528f222a86dad0829e03160cdf6bf1a146f85d3f506904d4273",
+    "references\\capabilities\\unpacking-and-hook.md": "f0616f5c27c1426bd7122edadc33bffef3e3155df8722fa7ab20b9c9960663c9",
+    "references\\capabilities\\webview-client-injection.md": "44b2f3c1f8063017d348e05926328c9421f5aab4bb510ad36f7725c5c73a7ff6",
+    "references\\capability-index.md": "a43a7d8f5dbb861fa89c3724b4e8b7e0fa81d8503bae482724c80756b6ef3a77",
+    "references\\cheatsheet.md": "cf42439e0d1da7c8fd24b38c53a25d9457f970a5aeed3a99e02ab71404434177",
+    "references\\glossary.md": "dcfecc0e08a9f4d92ce9bf301c79c4499ec6a69d551a0d98f91c08e68b0378a8",
+    "references\\overview.md": "a8ed9f7b6fee61ba1187da415161454c8afc088ff0daf5b05033e360ee0cd6f2",
+    "SKILL.md": "c0891c2892d84bd7bdd72eab54cc2076182dd2d6804bbcec74bb136f118498e1"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.mobile-security-suite",
+  "bundle_sha256": "5d86f68e289b34d2c17bc15af4cceac798e2915df15df80ac65957c36dde12ab",
+  "variant": "single",
+  "run_id": "run-20261121-105300-33fce0",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 4,
+    "promoted_count": 3,
+    "capability_count": 12,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 3 个晋级 Skill，共 4 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

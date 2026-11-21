@@ -1,0 +1,40 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\board-bus-peripheral-interfacing.md": "48182fe30e0ea2755c71c5a78f9b65d549b9cc94a13810f19db7d2d6ef5875c3",
+    "references\\capabilities\\boot-chain-card-imaging.md": "08eabaeee45c5350e1017f33299ad58094906e3725808ff27b5b108aa7315bfc",
+    "references\\capabilities\\covert-remote-access-chain.md": "4bc45789eeeb74081ab5ff1e5586353e680c854ae7da1d9e0d09f90263229c8b",
+    "references\\capabilities\\default-creds-minimal-services.md": "dce8589a34e516e9cd142ba476edc6ba0cd27e8a97ba8ce38b329c27f2bdc0af",
+    "references\\capabilities\\device-discovery-exposure-assessment.md": "c01508eaff7596a344a2bef7f4604997d61bbc655146596a52412f6f99834289",
+    "references\\capabilities\\embedded-task-persistence.md": "a455bfdf8976fab5905e719b0e06f1cdd4b6d7ffc267eafc156f1ca49b8f2128",
+    "references\\capabilities\\ocr-framework-judgement.md": "6f4f89a73007a62a31ec827197e7b462bfb2d378e32b3c5e47640e107bfd590e",
+    "references\\capabilities\\ocr-recipe-troubleshooting.md": "78f4ba7621e50ffb80d90ae7d425596c306e26f0bdaf930b4b1b13e0a70fc952",
+    "references\\capabilities\\power-supply-hardware-reliability.md": "9f8c7bbb57f4a5171fcd509772275a60e8ae014c3df30b288791ad1002e5d1fe",
+    "references\\capabilities\\remote-node-addressing.md": "1aa36fb433e6647a6eefc8b9a166cb354e07d89115b75bd3c0688d8df5e3f676",
+    "references\\capability-index.md": "cc0a5d4add0b07a1f552420693ce2be38e34d321773fcf4b8334013303b41ae9",
+    "references\\cheatsheet.md": "bfc5be7e25bc0e3f9d0419891162ea9a5bbdab5ba2677aeb85845575fe7bb67c",
+    "references\\glossary.md": "5741fedbe9364060ec9fad65a5400f68045900ca9068877b277f9d64e096eb5c",
+    "references\\overview.md": "b3cbfde53e028048d0311706875d09fe6f46c9027418d7e839eeca3ec7f0ff8f",
+    "SKILL.md": "a9c567128da1440e69d68d29a3bdb325fd35cca8abb8c8d5a67c31fb6201ee7f"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.hardware-iot-suite",
+  "bundle_sha256": "c93f375150cf0653b73845e18df83d69431cbc0fd01f1124b9109a13d327dfb2",
+  "variant": "single",
+  "run_id": "run-20261121-105302-13a8f0",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 4,
+    "promoted_count": 3,
+    "capability_count": 10,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 3 个晋级 Skill，共 4 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

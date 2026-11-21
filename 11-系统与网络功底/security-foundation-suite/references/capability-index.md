@@ -1,0 +1,14 @@
+# 能力索引（完整版）
+
+| capability_id | 标题 | 重要度 | 意图 | 关键词 | 能力卡 |
+|---|---|---|---|---|---|
+| cap.foundation.text-processing-pipeline | 文本处理管道排查 | critical | 从日志里快速统计总量、Top N 或字段分布；从大配置/日志里截取一个区块；把一次性排查固化成可交接复核的命令 | 日志排查、管道、awk累加、频次统计、增量逼近、log parsing、pipeline、sort uniq、sed range | capabilities/text-processing-pipeline.md |
+| cap.foundation.text-field-and-regex | 字段与正则正确性 | high | 命令跑通了却搜不到/统计不对，定位是哪层语义错；从 Python/Perl 迁移正则到 sed 后替换失效；批量多文件统计结论偏大或不可复现 | 静默失败、sed BRE、grep 引号、不可见字符、awk FS、==与~、NR FNR、quoting、regex dialect | capabilities/text-field-and-regex.md |
+| cap.foundation.batch-file-operations | 批量文件操作与传递 | high | find 结果批量处理时选择传递方式；批量删除/清理前看到确切清单；遇到 Argument list too long 或 sed -i 原地修改需留退路 | find -exec、xargs、-print0、空跑、Argument list too long、sed -i、批量删除、batch processing | capabilities/batch-file-operations.md |
+| cap.foundation.shell-script-reliability | shell 脚本可靠性 | high | 定位 shell 脚本报错或静默无输出的根因；让批量任务的失败显式可见；解决脚本里变量未替换、参数被拆的问题 | shell 调试、set -x、退出码、$?、引号、变量展开、bash debugging、quoting | capabilities/shell-script-reliability.md |
+| cap.foundation.cli-forensics | 命令行取证组合 | critical | 把异常外连/监听端口归因到进程；查某账号或在占用文件在做什么；构造命令与日志对齐的事件时间线 | netstat -tap、lsof、HISTTIMEFORMAT、时间戳、PID 归因、取证、时间线、forensics | capabilities/cli-forensics.md |
+| cap.foundation.permission-operations | 权限操作安全 | high | 枚举 suid/sgid 风险面并剔除无效设置；批量改权限前界定半径并留快照；确认有执行权限的文件是否真是可执行程序 | suid、sgid、权限位、chmod -R、爆炸半径、快照、提权面、permission audit | capabilities/permission-operations.md |
+| cap.foundation.untrusted-file-inspection | 可疑文件安全检视 | medium | 不改动原件、不被内容诱导执行地查看可疑文件；判断"内容缺了一段"是不是超长行显示假象；崩溃后从 swap 残留找回未写回内容 | vim -R、vim -Z、vim -b、超长行、swap 恢复、只读、显示假象、forensic | capabilities/untrusted-file-inspection.md |
+| cap.foundation.ocr-framework-judgement | 系统与网络功底 · OCR 增补：方法论框架与判据 | high | 遇到「这个系统安全吗」时，查本域 OCR 增补材料中的对应方法与判据；遇到「帮我加固一下」时，查本域 OCR 增补材料中的对应方法与判据；遇到「how do I secure this」时，查本域 OCR 增补材料中的对应方法与判据 | 这个系统安全吗、帮我加固一下、how do I secure this、内存不够处理大文件、streaming data can't fit、分批处理、这段代码太复杂怎么加固、攻击面太大、simplify before securing、输入验证怎么做、fuzzing 测试用例设计、boundary condition checklist | capabilities/ocr-framework-judgement.md |
+| cap.foundation.ocr-recipe-troubleshooting | 系统与网络功底 · OCR 增补：可执行配方与排障 | high | 遇到「海量整数去重」时，查本域 OCR 增补材料中的对应方法与判据；遇到「大范围小规模排序」时，查本域 OCR 增补材料中的对应方法与判据；遇到「bitmask filter」时，查本域 OCR 增补材料中的对应方法与判据 | 海量整数去重、大范围小规模排序、bitmask filter、哪个参数触发漏洞、哪条规则导致拦截、binary search the bad input、这里会不会出问题、internal invariant check、runtime assertion、怎么系统测试这个函数、边界 fuzzing、automated boundary test | capabilities/ocr-recipe-troubleshooting.md |
+| cap.foundation.ocr-counter-example | 系统与网络功底 · OCR 增补：反例与失效边界 | high | 遇到「优化」时，查本域 OCR 增补材料中的对应方法与判据；遇到「这算法很简单」时，查本域 OCR 增补材料中的对应方法与判据；遇到「ICMP 重定向要不要禁用」时，查本域 OCR 增补材料中的对应方法与判据 | 优化、这算法很简单、ICMP 重定向要不要禁用、主机路由表为什么有异常条目、怎么防 MITM、SNMP community string 泄露怎么办、为什么 SNMP 不安全、怎么扫描内网 SNMP 设备、RIP 会不会被伪造路由、路由协议怎么认证、为什么应该用 OSPF 不用 RIP、系统与网络功底 OCR 增补 | capabilities/ocr-counter-example.md |

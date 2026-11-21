@@ -1,0 +1,41 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\adversarial-reward-and-game-deception.md": "6f7b99789d5dbb19d3352a0c1cb8e9d75b41e485eb4ef173fe2252cd0420fc3a",
+    "references\\capabilities\\agent-trust-boundary.md": "965fac9bd3c94e3fd15116b3ae6578910d2105fd2914182bb374832ab7c20758",
+    "references\\capabilities\\ai-assisted-vuln-research.md": "e17a5366c229912c262dd55ee41a0e4893bcf49cdafa9403f97df3282a2d6af5",
+    "references\\capabilities\\defense-in-depth-architecture.md": "c3d59a90be9698e0cf8cb226dbe8c6ac473b8981555507699faed9885cb0f6ba",
+    "references\\capabilities\\execution-safety-and-server-truth.md": "f0b02f5f5a1914b7cadc67eb3ec9274382bff1ca3ad255f78428b4ffc337727c",
+    "references\\capabilities\\exposure-and-consequence-taxonomy.md": "7c7a45aab3ae230787f6bb2119eaad145b35797ca00145dbbf56e95c5f732bb7",
+    "references\\capabilities\\jailbreak-prompt-construction.md": "f372accfbf9401baa9887e34cc712d2b2bcd8f26e5967a530c3fdef2c2ed25c6",
+    "references\\capabilities\\memory-and-self-evolution-boundaries.md": "12d8e09f61cf74c1c646686b83f13cfdfbd8fdafabc2c20fd6414523d7958091",
+    "references\\capabilities\\prompt-injection-surface-and-separation.md": "7af19fe64bb24f63b049eec567f08199da12cdda797053306b8214da92880c58",
+    "references\\capabilities\\rag-permission-and-poisoning-defense.md": "c875ff8d24acb116d80f1a65c37e922c43388582ccfc28976856bc8539c01167",
+    "references\\capabilities\\tool-supply-chain-vetting.md": "50e00a0ec0f241c3f565cf61aef60e8113926046ff48b7c5f9ab294939dcc91b",
+    "references\\capability-index.md": "ade716a476b937ff1a4cfcc09208bdf58beb5321c38fb4f70129b7fc42e30593",
+    "references\\cheatsheet.md": "82f3b73c42775529b5a15dd51884588084456f1a1f4a9c6381f00bdead20fb38",
+    "references\\glossary.md": "0fbbc773facf3f74217d33eb07ca194a9237070e7a4b033248d4d8ad4fc8b067",
+    "references\\overview.md": "267d6209911cfcb7879ce305c4984a23e10e3adcd1f038a04a56bb0db6ca0783",
+    "SKILL.md": "c58206d81f99dd40cd3d3a3a010e24295c4d44cc20d409c6584868c8bd7b8148"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.ai-llm-security-suite",
+  "bundle_sha256": "998e634e6927d9523622fab8664687a50cd8f59d20636ee7d791ffc9f7464785",
+  "variant": "single",
+  "run_id": "run-20261121-105307-110942",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 5,
+    "promoted_count": 4,
+    "capability_count": 11,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 4 个晋级 Skill，共 5 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

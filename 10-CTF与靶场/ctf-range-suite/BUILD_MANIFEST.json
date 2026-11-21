@@ -1,0 +1,40 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\awd-attack-defense.md": "dc350994b15e17bac4ed76f8a644c32f0235db1ad81f8a47f7fee3e577b2d820",
+    "references\\capabilities\\blind-rop-brop.md": "8ad285511b1218783a0479f8d3e302087f4d2af26b232c420b87308097d9bca5",
+    "references\\capabilities\\file-read-and-include.md": "e1e3ebf8376b21641f249746af9de2640712159a35aabbbab644fdd210bc1cda",
+    "references\\capabilities\\format-string-exploitation.md": "cec7fad22b2da2d58227986fece093402210780ae76fdeb37dc723726d163b73",
+    "references\\capabilities\\lab-privesc.md": "c1fa5971a39f16516d2c78e576f3272bbf7642ddadf5b0b976bb0d2457fb733a",
+    "references\\capabilities\\lab-workflow-and-triage.md": "2ffc797158a38e6f0b7b4f5587e893dc9e0ce7ee6c1663085bc38ff81988ed26",
+    "references\\capabilities\\pwn-opening-protection-read.md": "b9e6ea54ad3cd68c7f9d1f9f361c904e7270c6683232a8fc6bbb941173e9f122",
+    "references\\capabilities\\rce-egress-and-shell.md": "0d8806efcf030856be047da966b139c0cf705c6c0cbfed5133d933b8956043c2",
+    "references\\capabilities\\web-recon-source-leak.md": "d76baada6283b7a9e7fba7a22b94a58071972b941b5cb1383c94d3ed3d69654b",
+    "references\\capabilities\\web-vuln-channel-selection.md": "4999ee2ccef98a4fbd4788ad69826de45b88c3cad48140aa87fe66c38eb93920",
+    "references\\capability-index.md": "6277b07c9d6b17de402ccf75ef63d29b641a80d9b24b6dcaf19735ad5d70b410",
+    "references\\cheatsheet.md": "c5ff0d4cf24520feee568cf1fdf0ba32b91c1ac42cd8539766a7da35a4e16ba1",
+    "references\\glossary.md": "faf1799c313dc6a6a273c5fbd2b8bad4ebed571675bb4ad29d2ae0e840d85afd",
+    "references\\overview.md": "99ada05daeac636008a1fa6caf460bec31198b7a545114cf39ad28114f251444",
+    "SKILL.md": "1d03f60f3829776e71898330b283e31351f0a332d2bcf067a7a46e80495243d0"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.ctf-range-suite",
+  "bundle_sha256": "ae3b68dc7fec42ae4a7f4cd209a663250d8fbb0a5d5064bfbd91e1ef20da429f",
+  "variant": "single",
+  "run_id": "run-20261121-105308-e1c138",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 4,
+    "promoted_count": 3,
+    "capability_count": 10,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 3 个晋级 Skill，共 4 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

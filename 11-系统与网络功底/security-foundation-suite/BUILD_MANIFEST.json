@@ -1,0 +1,40 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\batch-file-operations.md": "a00d78d1d38e1ff300328dd1bb4c96b113bf9271ad9a10c1d02272c333d7a0ab",
+    "references\\capabilities\\cli-forensics.md": "04dbfec70e9e1e7df229d3f36393aa9910b5784a9ca26db7829fdbb5d4fe9711",
+    "references\\capabilities\\ocr-counter-example.md": "0724a0b6586afef11fcfc87cd8dd682af13b1294e0a4eb0cdfbfd45d1ce97f19",
+    "references\\capabilities\\ocr-framework-judgement.md": "bddf821963c0d79eaaa5cccbaea0cbbd02239dddb81bb2e9ed5390abfbc91f70",
+    "references\\capabilities\\ocr-recipe-troubleshooting.md": "1c900d1c56dc0d7b4ed043f1c644763d88408934d116334d0ce9dc34398f317f",
+    "references\\capabilities\\permission-operations.md": "a3305a44f02975afa42a15f1d15930bbd940d920df6e4707c30e70676baf90eb",
+    "references\\capabilities\\shell-script-reliability.md": "63c4977ba115ea738e8e31b34356c909bf12ee3b6cc6cdcfa54c6cfe57cddd50",
+    "references\\capabilities\\text-field-and-regex.md": "93c249c2ae5bae3370b0a8601de72ebd246109df567d607d537b5285dfab6370",
+    "references\\capabilities\\text-processing-pipeline.md": "df00a7ec02f6ec14f0e97d68bdcfa9b3ab4e1f0ba6afd2a6e7163cf855ba9ea9",
+    "references\\capabilities\\untrusted-file-inspection.md": "4e7199bf088e4f2e16ad9c38ff13eaa831f506bcda89ccf2d53dd5731403ab86",
+    "references\\capability-index.md": "e9b2f6eb682173615a131a14c0f335565d2f2f22e205bfd58f38152d289c3d9c",
+    "references\\cheatsheet.md": "6c626bdf464a3d64b2f50f30cc1505e5d927045e5e985791178e38598f6628d4",
+    "references\\glossary.md": "1efe56d0a14d5b50646e4399514395774855b42571f677651ee073901f225cfe",
+    "references\\overview.md": "a3bd1f7e4e9597fea0b21ba0606aa644f1246c0372eb0d301a306a938246c6d0",
+    "SKILL.md": "39feb7902a9b8100d655fde90b33fd8fb50f5d13fa41f8e37d544d134d62c9b1"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.security-foundation-suite",
+  "bundle_sha256": "8a8208f2120a8bd37ce1872131efb477ec1aa984bdbdbb262437e4be8d00d438",
+  "variant": "single",
+  "run_id": "run-20261121-105303-eedfe5",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 4,
+    "promoted_count": 3,
+    "capability_count": 10,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 3 个晋级 Skill，共 4 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

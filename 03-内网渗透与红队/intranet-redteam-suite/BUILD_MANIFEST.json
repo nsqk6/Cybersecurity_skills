@@ -1,0 +1,45 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\c2-tunnel-infrastructure.md": "81dfdedd99546aa39519e8c57e38ad0f5c60c211ce9dcb3846c1f8a3013b2e0e",
+    "references\\capabilities\\credential-extraction.md": "59368c3ef44ab9c8673948c8a9eab1a97fb3119be18316038a2eeb0143078f6b",
+    "references\\capabilities\\domain-recon-path.md": "3389247770586abff0441762e625d4a1940a641193fde921dbd4c19c929cf503",
+    "references\\capabilities\\endpoint-persistence.md": "37fcd266ca0196ef0808d75614d98d560085b775f3e1881ac9bba5d2c7395749",
+    "references\\capabilities\\evasion-and-opsec.md": "d6e9b635c29a26dfb1701f6d07bb82d711e9ec3551b929b53a6c7a83814d90f2",
+    "references\\capabilities\\external-recon-pretext.md": "a98ad0cfa0a5186ea35fec22a913e16cbcda1ed19aa856e2de017c4c50b4f2f0",
+    "references\\capabilities\\initial-access-delivery.md": "63f786a3eff9f777d2465324c8cbd424f181d5c7530784247b42952d3da9ced7",
+    "references\\capabilities\\kerberos-ticket-abuse.md": "f228cb2dbcc3289366c7d572738b6d227e4719cd081322f32867a69cbe70309b",
+    "references\\capabilities\\lateral-execution-channels.md": "41aa660397eb5172b3a073b2291971273c829c0953730390430eecec037994ea",
+    "references\\capabilities\\ntlm-relay-coercion.md": "ae04bf84ec8154164a09adc16eaa4d7baadbc5d50a14e2796de58f4f5d4a10c2",
+    "references\\capabilities\\ocr-counter-example.md": "fc783b4e77a825ad2b01ecce04d736466dbd3f42ade5db788b234b181e7e5186",
+    "references\\capabilities\\ocr-framework-judgement.md": "76be4424119282b5e054ac71b7c202034105e3c91bd4f9eb9cce642f2583bd76",
+    "references\\capabilities\\ocr-recipe-troubleshooting.md": "5ffd52c8c30e4a8cdcb1643f29ceb51e70ba2e6c03a276c5a25ae762715ee8f8",
+    "references\\capabilities\\password-attack-reuse.md": "d2d0ff80bc8fc9ab08d9a4b972a49357b161726f8e56cfcb171ab0023383a664",
+    "references\\capabilities\\windows-db-privesc.md": "3997c3b6642a6ea5178464eadbf72cad8b45b8ca4a8aecef9793e79cc3452bb8",
+    "references\\capability-index.md": "7a3ec4c6b3d28a3429cf0ca93b7bd2029196f86f75a0bf4c932c9430d2f2c170",
+    "references\\cheatsheet.md": "e5973b7dcb695179b0d4c25837f4145de275eca1c7c4eb4c79d7dfc43115de88",
+    "references\\glossary.md": "fcc1564d70c43174c24c92f75a64a8876805565210e7f37496e635ffa2eb8a99",
+    "references\\overview.md": "68e52920438ea5c388cb64210fcd34d7b92b3db020786f85aa7192ec86c3d0e5",
+    "SKILL.md": "2eb46757dd89b52bc48417660ae882790005c604b95bb26b7a9a091e2364aa5b"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.intranet-redteam-suite",
+  "bundle_sha256": "54d67020187c45a2f42b65460942045f4e27b747dbf21b15f9944a5d6024c80c",
+  "variant": "single",
+  "run_id": "run-20261121-105258-ec690e",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 5,
+    "promoted_count": 4,
+    "capability_count": 15,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 4 个晋级 Skill，共 5 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

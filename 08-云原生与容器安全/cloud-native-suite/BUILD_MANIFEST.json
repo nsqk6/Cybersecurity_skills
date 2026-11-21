@@ -1,0 +1,41 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\cloud-attack-surface-and-responsibility.md": "18de36e8c30af6b2a7a70e9992d083d098e1621678a4475532832c0c22bde5f5",
+    "references\\capabilities\\cloud-credential-and-storage-attack.md": "80bbd6f0d7eb33775c0ccee4a1197f0b9c59dea39e21b2aeedd280723d515bef",
+    "references\\capabilities\\cloud-platform-lateral-movement.md": "6513c7b5922c59d6f86c10fcec6b274f826ee4b1b87223478e27afc850a2f4e2",
+    "references\\capabilities\\container-escape-path-assessment.md": "1df841344f65c58506a789bc990f8900ee095d8fb48e2937b580c61941e3ebf5",
+    "references\\capabilities\\container-incident-forensics.md": "e55180399875214e2f79537883c8a945e973cdbeb44db64a8d9d259efe8688e3",
+    "references\\capabilities\\container-isolation-boundary-assessment.md": "7e9834efb964d856d9de087cc6ce865d6987647fd3168ed7d7318b4dfad684e2",
+    "references\\capabilities\\container-network-exposure.md": "73ca3b047fa7ad240144d40a5023f8296580318e1003587f2ff0cd774ca0cc47",
+    "references\\capabilities\\container-privilege-surface-hardening.md": "f5f58a65a70468bcba13e193d6c7388dace40edd962082f0a404a7b8418a440b",
+    "references\\capabilities\\container-security-tooling.md": "5ebe80595bdfaf6a04372426315de2df5ecc53c91102e71afdfa7821b1cb1fa2",
+    "references\\capabilities\\docker-daemon-api-exposure.md": "91190a483632e75024d6cb6653bf1cb333054adb6d1396a8a880c54b690b2086",
+    "references\\capabilities\\image-build-supply-chain.md": "b68e53fed9a4f615b1e48febff88901b926e3f6b7ac963fad09bb9f4027da20c",
+    "references\\capability-index.md": "63c7d22b75b6ed0884ad3752902b5f6a530d05002a97361569d839f69f9facf1",
+    "references\\cheatsheet.md": "f0413cd302b783155b921b1173d2e70e27898f85bac575ee20a61f4068f007aa",
+    "references\\glossary.md": "4e2f7399449b87d6df0ab5949d764863f2bddb0af2dc6809d9ce88de57d72b7f",
+    "references\\overview.md": "946bd290baf482251e9cee808873139047dcfd0494babd6ad84f3eb8fd90a698",
+    "SKILL.md": "6ac7e7792501f0b6e4fc9180c06245db4eb674401ad5e0f7032d21cbf914edce"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.cloud-native-suite",
+  "bundle_sha256": "0561368cfd17ecb826e0cca481ffe6c531fcc7f5f2b2984e782cdf8af60e2277",
+  "variant": "single",
+  "run_id": "run-20261121-105305-9b0024",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 5,
+    "promoted_count": 4,
+    "capability_count": 11,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 4 个晋级 Skill，共 5 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}

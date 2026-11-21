@@ -1,0 +1,45 @@
+{
+  "tool": "cangjie-tools v2.5.0",
+  "published_hashes": {
+    "references\\capabilities\\attacker-attribution.md": "a9eddb2d0bf38944dcf2b5efe764d78ca38fdd1209b1b3405ffd95a654797095",
+    "references\\capabilities\\containment-decisions.md": "086ad84010c24fa2c655e41539279bd08267bdeb5c86d667876355609b17976e",
+    "references\\capabilities\\defense-readiness-baseline.md": "7248368b4656a7093e4c9aae6764b474a3c3f5baa4956223b26466f43a192cc3",
+    "references\\capabilities\\detection-rule-engineering.md": "9e8e1e9931b466655a08e70d33342d1fb16becfb4afe087b37da5a3326a5adbf",
+    "references\\capabilities\\detection-validation-coverage.md": "bff472d4aa4dbcb12c981f03c2acc96b95dcb2d197ae2900c46068befa59ac49",
+    "references\\capabilities\\host-triage-parallel.md": "8ed17bb95d21c33df3b20a0c72f8e39323adba5f3d4ce53cfa47b0c08ee3b459",
+    "references\\capabilities\\incident-scoping.md": "050330a35debe663fc01e0150f2df40c500ff56e3b7c564ff20000e6ac459ccf",
+    "references\\capabilities\\ir-evidence-order.md": "85c4834d91a31d75a71de3e83d0476e27b4099c55bd158c94c356ecf8b3e2de7",
+    "references\\capabilities\\ir-toolchain.md": "d8b397c8301624f8d0fa797e63f2981d02919e029693af3bd338a0679f1329ba",
+    "references\\capabilities\\log-forensics-integrity.md": "f3ceabd6a11ed5f1c6afa2efcc59b08ee262746ba051f7e74f7fba3394e02876",
+    "references\\capabilities\\ocr-counter-example.md": "03034d90912e91a77a22df2d8cfa0c10708ce9734ae767c434e4f10151f7ec79",
+    "references\\capabilities\\ocr-framework-judgement.md": "05d0d42e94899d7c4c23477b66b518b029b3b1574ca65c7323be3ebccdafb006",
+    "references\\capabilities\\ocr-recipe-troubleshooting.md": "8bc8774e5bda39d39ec788a147aa63dc8ad0914427c696ab0c81ec121cfc5d36",
+    "references\\capabilities\\persistence-sweep-windows.md": "f60c60147b87a748b4b6c8fbcabbceada37fa48e564c92c13e322aa5ee513780",
+    "references\\capabilities\\traffic-hunt-c2.md": "9b9621e93325e1f2d319c76efbbdf30e6ebf7a08c7530b64c29b58e466de4fdc",
+    "references\\capability-index.md": "614cae3f9c50a480bc5a4129a37cb37e41899aaec5d8a861e28e726f21b9c945",
+    "references\\cheatsheet.md": "5d9eea4df002c03c42f4677403c84a7ed5e0bcb681958487cf00faa0ba1f92b8",
+    "references\\glossary.md": "ed31fbd55b704ab7d2e55551826b723d15266d12b5556f959d108f95171840f2",
+    "references\\overview.md": "76c760252779ff852e3124a2ade1e4b3fca4830bcb245e1849b9d135ebf28d5c",
+    "SKILL.md": "6bc6dfdc372c2e2ea83768df2711bc32adec75415f12f11128c61cc1e7470889"
+  },
+  "note": "update/重编译前比对 published_hashes；检测到本地手改不得静默覆盖",
+  "bundle_id": "bundle.blue-team-ir-suite",
+  "bundle_sha256": "3b54d4d5dbf7838c885519aa1302055bb7577717c7ffd333effb9f439f3e72dd",
+  "variant": "single",
+  "run_id": "run-20261121-105259-ba76ea",
+  "decision": {
+    "schema_version": 1,
+    "requested": "single",
+    "selected": "single",
+    "decision_policy": "single-first-v1",
+    "skill_budget": 5,
+    "promoted_count": 4,
+    "capability_count": 15,
+    "reasons": [
+      "用户显式选择 single，auto 决策器不覆盖用户选择"
+    ],
+    "alternative": "compact pack（1 个来源路由入口 + 4 个晋级 Skill，共 5 个可发现入口）",
+    "user_confirmed": true,
+    "preserve_strategy_on_update": true
+  }
+}
